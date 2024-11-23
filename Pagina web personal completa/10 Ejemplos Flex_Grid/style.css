@@ -1,0 +1,88 @@
+
+:root {
+  --color1: rgb(117, 106, 182);
+  --color2: rgb(172, 135, 197);
+  --color3: rgb(224, 174, 208);
+  --color4: rgb(255, 229, 229);
+  --color5: rgb(0, 0, 0);
+  --color6: rgb(21, 0, 80);
+  --color7: rgb(63, 0, 113);
+  --color8: rgb(97, 0, 148);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color4);
+  color: var(--color5);
+}
+
+header {
+  background-color: var(--color6);
+  color: var(--color4);
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.flex-item {
+  background-color: var(--color2);
+  padding: 20px;
+  color: var(--color5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-template {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: var(--color3);
+  padding: 20px;
+  color: var(--color5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--color7);
+  color: var(--color4);
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

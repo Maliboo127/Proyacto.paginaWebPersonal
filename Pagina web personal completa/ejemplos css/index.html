@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú vertical responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../Pagina web/index.html"><header>
+        <h1 class="titulo">Marlene Ximena Sandoval García <span style="color: purple;">Ingeniero en computacion</span></h1>
+     </header></a>
+    <section> <h1>Ejemplo 1</h1>
+    <nav>
+        <div class="mobile">
+            <div class="header">
+                <div class="logo">Logo</div>
+                <div class="more">
+                    <button id="bMore"><span class="material-icons">menu</span></button>
+                </div>
+            </div>
+            <div id="links" class="links">
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Search</a>
+                <a href="#">Sign up</a>
+                <a href="#">Login</a>
+            </div>
+        </div>
+        <div class="desktop">
+            <div class="logo">Logo</div>
+
+            <div class="primary">
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="secondary full">
+                <a href="#">Search</a>
+                <a href="#">Sign up</a>
+                <a href="#">Login</a>
+            </div>
+
+            <div class="secondary mini">
+                <a href="#" class="more">More</a>
+                 <div class="submenu">
+                    <a href="#">Search</a>
+                    <a href="#">Sign up</a>
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        const bMore = document.querySelector('#bMore');
+        const links = document.querySelector('#links');
+
+        bMore.addEventListener("click", (e) => {
+            links.classList.toggle("collapsed")
+        });
+    </script>
+    </section>
+    
+    <section> <h1>Ejemplo 2</h1>
+        <body>
+
+            <div class="cards">
+                <!-- Card 1 -->
+                <div class="card element-1">
+                    <div class="header">
+                        <div class="date">15 de Septiembre del 2024</div>
+                        <div class="title">Como funciona Css</div>
+                    </div>
+                    <div class="footer">
+                        <div class="autor">
+                            <a href="#">
+                                <img src="../../img/perfil.jpg" alt="">
+                                <span>Marlene Sandoval</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 2 -->
+                <div class="card element-2">
+                    <div class="header">
+                        <div class="date">15 de Septiembre del 2024</div>
+                        <div class="title">Como funciona Css</div>
+                    </div>
+                    <div class="footer">
+                        <div class="autor">
+                            <a href="#">
+                                <img src="../../img/perfil.jpg" alt="">
+                                <span>Marlene Sandoval</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 3 -->
+                <div class="card element-3">
+                    <div class="header">
+                        <div class="date">15 de Septiembre del 2024</div>
+                        <div class="title">Como funciona Css</div>
+                    </div>
+                    <div class="footer">
+                        <div class="autor">
+                            <a href="#">
+                                <img src="../../img/perfil.jpg" alt="">
+                                <span>Marlene Sandoval</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 4 -->
+                <div class="card element-4">
+                    <div class="header">
+                        <div class="date">15 de Septiembre del 2024</div>
+                        <div class="title">Como funciona Css</div>
+                    </div>
+                    <div class="footer">
+                        <div class="autor">
+                            <a href="#">
+                                <img src="../../img/perfil.jpg" alt="">
+                                <span>Marlene Sandoval</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </body></section>
+
+    <section><h1>Ejemplo 3</h1>
+        <table>
+            <caption>Mi primera tabla</caption>
+    
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                    <th>Título 4</th>
+                    <th>Título 5</th>
+                    <th>Título 6</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Marlene Sandoval</td>
+                    <td>México</td>
+                    <td>$3, 500</td>
+                    <td>$6, 500</td>
+                    <td>88.67</td>
+                    <td>16</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section><h1>Ejemplo 4</h1>
+        <div class="notification">
+            <div class="count">29</div>
+            <div class="material-icons">notifications</div>
+        </div>
+    </section>
+
+    <section><h1>Ejemplo 5</h1>
+        <div class="progressbar-container">
+            <div class="outer-box">
+                <div class="inner-box">100%</div>
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                version="1.1" 
+                width="200" 
+                height="200">
+                <defs>
+                    <linearGradient id="gradientColor">
+                        <stop offset="0%" stop-color="#e91e63"/>
+                        <stop offset="100%" stop-color="#673ab7"/>
+                    </linearGradient>
+                </defs>
+                <circle cx="100" cy="100" r="80" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section><h1>Ejemplo 6</h1>
+        <div class="price-table-container">
+            <div class="table">
+                <div class="tittle">Startup Plan</div>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="number">69</span>
+                    <span class="frequency">/mo</span>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                    </ul>
+                </div>
+                <div class="actions">
+                    <a href="#" class="btn">Try for free</a>
+                </div>
+            </div>
+            <div class="table recommended">
+                <div class="tittle">Startup Plan</div>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="number">69</span>
+                    <span class="frequency">/mo</span>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                    </ul>
+                </div>
+                <div class="actions">
+                    <a href="#" class="btn recommended">Try for free</a>
+                </div>
+            </div>
+            <div class="table">
+                <div class="tittle">Startup Plan</div>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="number">69</span>
+                    <span class="frequency">/mo</span>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                        <li>
+                            <span class="material-icons check_circle">check_circle</span>
+                            Ease Acces
+                        </li>
+                    </ul>
+                </div>
+                <div class="actions">
+                    <a href="#" class="btn">Try for free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section><h1>Ejemplo 7</h1>
+        <label class="checkbox-container">
+            Soy un Checkbox
+            <input type="checkbox" name="" id="">
+            <span class="checkmark">
+                <span class="material-icons">check</span>
+            </span>
+        </label>
+    
+        <label class="checkbox-container">
+            Soy un radio button
+            <input type="radio" name="a" id="">
+            <span class="checkmark radio">
+               <div class="circle"></div>
+            </span>
+        </label>
+        <label class="checkbox-container">
+            Soy un radio button
+            <input type="radio" name="a" id="">
+            <span class="checkmark radio">
+               <div class="circle"></div>
+            </span>
+        </label>
+    </section>
+
+    <section><h1>Ejemplo 8</h1>
+        <div class="search-bar">
+            <input type="text">
+            <div class="actions">
+                <button>
+                    <span class="material-icons">mic</span>
+                </button>
+                <button>
+                    <span class="material-icons">document_scanner</span>
+                </button>
+                <button>
+                    <span class="material-icons">search</span>
+                </button>            
+            </div>
+        </div>
+    </section>
+
+    <section><h1>Ejemplo 9</h1>
+        <div class="chat-container">
+            <div class="bubble-container right">
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>Hola soy una burbuja, este es un primer mensaje de texto</span>
+                            <div class="bubble-info">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>Hola soy una burbuja</span>
+                            <div class="bubble-info">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>Hola soy una burbuja</span>
+                            <div class="bubble-info">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <!----Left-->
+            <div class="bubble-container left">
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>Hola soy una burbuja</span>
+                            <div class="bubble-info">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>Hola soy una burbuja, ya hazme caso que ya quiero terminar la tarea</span>
+                            <div class="bubble-info">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>Hola</span>
+                            <div class="bubble-info">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section><h1>Ejemplo 10</h1>
+        <div class="slider-container">
+            <div class="slider-viewport">
+                <div class="slide" id="slide1">1</div>
+                <div class="slide" id="slide2">2</div>
+                <div class="slide" id="slide3">3</div>
+                <div class="slide" id="slide4">4</div>
+                <div class="slide" id="slide5">5</div>
+            </div>
+    
+            <div class="links">
+                <a href="#slide1">1</a>
+                <a href="#slide2">2</a>
+                <a href="#slide3">3</a>
+                <a href="#slide4">4</a>
+                <a href="#slide5">5</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+        <a href="../Pagina web/index.html">Home</a>
+</body>
+</html>
